@@ -1,3 +1,4 @@
+using System;
 using System.Windows.Forms;
 
 namespace Queue
@@ -10,6 +11,11 @@ namespace Queue
         public MainForm()
         {
             InitializeComponent();
+        }
+
+        private void ButtonClick(Object sender, EventArgs args)
+        {
+
         }
     }
 }
