@@ -11,6 +11,7 @@ namespace Queue
         private Label divider1;
         private Label divider2;
         private Label divider3;
+        private Label divider4;
 
         private NumericUpDown upDown1;
         private NumericUpDown upDown2;
@@ -28,6 +29,7 @@ namespace Queue
             divider1 = new Label();
             divider2 = new Label();
             divider3 = new Label();
+            divider4 = new Label();
 
             upDown1 = new NumericUpDown();
             upDown2 = new NumericUpDown();
@@ -74,9 +76,19 @@ namespace Queue
 
             divider3.AutoSize = false;
             divider3.BorderStyle = BorderStyle.Fixed3D;
-            divider3.Location = new Point(5, 358);
+            divider3.Location = new Point(5, 314);
             divider3.Name = "divider3";
             divider3.Size = new Size(590, 2);
+
+            #endregion
+
+            #region divider4
+
+            divider4.AutoSize = false;
+            divider4.BorderStyle = BorderStyle.Fixed3D;
+            divider4.Location = new Point(5, 358);
+            divider4.Name = "divider4";
+            divider4.Size = new Size(590, 2);
 
             #endregion
 
@@ -182,6 +194,7 @@ namespace Queue
                 divider1,
                 divider2,
                 divider3,
+                divider4,
                 upDown1,
                 upDown2,
                 textBox1,
