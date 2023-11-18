@@ -15,6 +15,7 @@ namespace Queue
 
         private NumericUpDown upDown1;
         private NumericUpDown upDown2;
+        private NumericUpDown upDown3;
 
         private TextBox textBox1;
         private TextBox textBox2;
@@ -33,6 +34,7 @@ namespace Queue
 
             upDown1 = new NumericUpDown();
             upDown2 = new NumericUpDown();
+            upDown3 = new NumericUpDown();
 
             textBox1 = new TextBox();
             textBox2 = new TextBox();
@@ -76,7 +78,7 @@ namespace Queue
 
             divider3.AutoSize = false;
             divider3.BorderStyle = BorderStyle.Fixed3D;
-            divider3.Location = new Point(5, 314);
+            divider3.Location = new Point(5, 316);
             divider3.Name = "divider3";
             divider3.Size = new Size(590, 2);
 
@@ -121,6 +123,20 @@ namespace Queue
             upDown2.UpDownAlign = LeftRightAlignment.Right;
 
             upDown2.Value = (Decimal)0.5;
+
+            #endregion
+
+            #region upDown3
+
+            upDown3.Location = new Point(400, 324);
+            upDown3.Maximum = 10000000;
+            upDown3.Minimum = 1;
+            upDown3.Name = "upDown3";
+            upDown3.Size = new Size(195, 30);
+            upDown3.TextAlign = HorizontalAlignment.Right;
+            upDown3.UpDownAlign = LeftRightAlignment.Right;
+
+            upDown3.Value = 10000;
 
             #endregion
 
@@ -197,6 +213,7 @@ namespace Queue
                 divider4,
                 upDown1,
                 upDown2,
+                upDown3,
                 textBox1,
                 textBox2,
                 textBox3,
