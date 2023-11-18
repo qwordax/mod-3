@@ -288,7 +288,7 @@ namespace Queue
             label8.Location = new Point(5, 274);
             label8.Name = "label8";
             label8.Size = new Size(190, 30);
-            label8.Text = "Iterations";
+            label8.Text = "Ticks";
             label8.TextAlign = ContentAlignment.MiddleLeft;
 
             #endregion
