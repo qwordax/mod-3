@@ -23,6 +23,15 @@ namespace Queue
         private TextBox textBox4;
         private TextBox textBox5;
 
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private Label label4;
+        private Label label5;
+        private Label label6;
+        private Label label7;
+        private Label label8;
+
         private void InitializeComponent()
         {
             button = new Button();
@@ -41,6 +50,15 @@ namespace Queue
             textBox3 = new TextBox();
             textBox4 = new TextBox();
             textBox5 = new TextBox();
+
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            label5 = new Label();
+            label6 = new Label();
+            label7 = new Label();
+            label8 = new Label();
 
             SuspendLayout();
 
@@ -195,6 +213,86 @@ namespace Queue
 
             #endregion
 
+            #region label1
+
+            label1.Location = new Point(5, 5);
+            label1.Name = "label1";
+            label1.Size = new Size(390, 30);
+            label1.Text = "First Channel";
+            label1.TextAlign = ContentAlignment.MiddleLeft;
+
+            #endregion
+
+            #region label2
+
+            label2.Location = new Point(5, 40);
+            label2.Name = "label2";
+            label2.Size = new Size(390, 30);
+            label2.Text = "Second Channel";
+            label2.TextAlign = ContentAlignment.MiddleLeft;
+
+            #endregion
+
+            #region label3
+
+            label3.Location = new Point(5, 82);
+            label3.Name = "label3";
+            label3.Size = new Size(390, 30);
+            label3.Text = "Failure Probability";
+            label3.TextAlign = ContentAlignment.MiddleLeft;
+
+            #endregion
+
+            #region label4
+
+            label4.Location = new Point(5, 117);
+            label4.Name = "label4";
+            label4.Size = new Size(390, 30);
+            label4.Text = "Average Queue Length";
+            label4.TextAlign = ContentAlignment.MiddleLeft;
+
+            #endregion
+
+            #region label5
+
+            label5.Location = new Point(5, 159);
+            label5.Name = "label5";
+            label5.Size = new Size(390, 30);
+            label5.Text = "Request Count";
+            label5.TextAlign = ContentAlignment.MiddleLeft;
+
+            #endregion
+
+            #region label6
+
+            label6.Location = new Point(5, 194);
+            label6.Name = "label6";
+            label6.Size = new Size(390, 30);
+            label6.Text = "Queue Count";
+            label6.TextAlign = ContentAlignment.MiddleLeft;
+
+            #endregion
+
+            #region label7
+
+            label7.Location = new Point(5, 229);
+            label7.Name = "label7";
+            label7.Size = new Size(390, 30);
+            label7.Text = "Failure Count";
+            label7.TextAlign = ContentAlignment.MiddleLeft;
+
+            #endregion
+
+            #region label8
+
+            label8.Location = new Point(5, 324);
+            label8.Name = "label8";
+            label8.Size = new Size(390, 30);
+            label8.Text = "Iterations";
+            label8.TextAlign = ContentAlignment.MiddleLeft;
+
+            #endregion
+
             #region this
 
             AutoScaleMode = AutoScaleMode.Font;
@@ -219,6 +317,14 @@ namespace Queue
                 textBox3,
                 textBox4,
                 textBox5,
+                label1,
+                label2,
+                label3,
+                label4,
+                label5,
+                label6,
+                label7,
+                label8,
             });
 
             #endregion
