@@ -15,28 +15,15 @@ namespace Queue
         public Double First { get; set; }
         public Double Second { get; set; }
 
-        public Queue()
-        {
-            First = 0.5;
-            Second = 0.5;
-
-            ClearState();
-        }
-
         public Queue(Double first, Double second)
-        {
-            First = first;
-            Second = second;
-
-            ClearState();
-        }
-
-        public void ClearState()
         {
             a = 2;
             b = 0;
             c = 0;
             d = 0;
+
+            First = first;
+            Second = second;
         }
     }
 }
