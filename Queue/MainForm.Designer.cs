@@ -15,6 +15,12 @@ namespace Queue
         private NumericUpDown upDown1;
         private NumericUpDown upDown2;
 
+        private TextBox textBox1;
+        private TextBox textBox2;
+        private TextBox textBox3;
+        private TextBox textBox4;
+        private TextBox textBox5;
+
         private void InitializeComponent()
         {
             button = new Button();
@@ -25,6 +31,12 @@ namespace Queue
 
             upDown1 = new NumericUpDown();
             upDown2 = new NumericUpDown();
+
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
+            textBox3 = new TextBox();
+            textBox4 = new TextBox();
+            textBox5 = new TextBox();
 
             SuspendLayout();
 
@@ -100,6 +112,61 @@ namespace Queue
 
             #endregion
 
+            #region textBox1
+
+            textBox1.Location = new Point(400, 82);
+            textBox1.Name = "textBox1";
+            textBox1.ReadOnly = true;
+            textBox1.Size = new Size(195, 30);
+            textBox1.TabStop = false;
+            textBox1.TextAlign = HorizontalAlignment.Right;
+
+            #endregion
+
+            #region textBox2
+
+            textBox2.Location = new Point(400, 117);
+            textBox2.Name = "textBox2";
+            textBox2.ReadOnly = true;
+            textBox2.Size = new Size(195, 30);
+            textBox2.TabStop = false;
+            textBox2.TextAlign = HorizontalAlignment.Right;
+
+            #endregion
+
+            #region textBox3
+
+            textBox3.Location = new Point(400, 159);
+            textBox3.Name = "textBox3";
+            textBox3.ReadOnly = true;
+            textBox3.Size = new Size(195, 30);
+            textBox3.TabStop = false;
+            textBox3.TextAlign = HorizontalAlignment.Right;
+
+            #endregion
+
+            #region textBox4
+
+            textBox4.Location = new Point(400, 194);
+            textBox4.Name = "textBox4";
+            textBox4.ReadOnly = true;
+            textBox4.Size = new Size(195, 30);
+            textBox4.TabStop = false;
+            textBox4.TextAlign = HorizontalAlignment.Right;
+
+            #endregion
+
+            #region textBox5
+
+            textBox5.Location = new Point(400, 229);
+            textBox5.Name = "textBox5";
+            textBox5.ReadOnly = true;
+            textBox5.Size = new Size(195, 30);
+            textBox5.TabStop = false;
+            textBox5.TextAlign = HorizontalAlignment.Right;
+
+            #endregion
+
             #region this
 
             AutoScaleMode = AutoScaleMode.Font;
@@ -117,6 +184,11 @@ namespace Queue
                 divider3,
                 upDown1,
                 upDown2,
+                textBox1,
+                textBox2,
+                textBox3,
+                textBox4,
+                textBox5,
             });
 
             #endregion
