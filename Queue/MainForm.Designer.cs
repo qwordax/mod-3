@@ -65,9 +65,9 @@ namespace Queue
             #region button
 
             button.Click += ButtonClick;
-            button.Location = new Point(5, 365);
+            button.Location = new Point(5, 315);
             button.Name = "button";
-            button.Size = new Size(590, 30);
+            button.Size = new Size(390, 30);
             button.Text = "Generate";
 
             #endregion
@@ -78,7 +78,7 @@ namespace Queue
             divider1.BorderStyle = BorderStyle.Fixed3D;
             divider1.Location = new Point(5, 75);
             divider1.Name = "divider1";
-            divider1.Size = new Size(590, 2);
+            divider1.Size = new Size(390, 2);
 
             #endregion
 
@@ -88,7 +88,7 @@ namespace Queue
             divider2.BorderStyle = BorderStyle.Fixed3D;
             divider2.Location = new Point(5, 152);
             divider2.Name = "divider2";
-            divider2.Size = new Size(590, 2);
+            divider2.Size = new Size(390, 2);
 
             #endregion
 
@@ -96,9 +96,9 @@ namespace Queue
 
             divider3.AutoSize = false;
             divider3.BorderStyle = BorderStyle.Fixed3D;
-            divider3.Location = new Point(5, 316);
+            divider3.Location = new Point(5, 266);
             divider3.Name = "divider3";
-            divider3.Size = new Size(590, 2);
+            divider3.Size = new Size(390, 2);
 
             #endregion
 
@@ -106,9 +106,9 @@ namespace Queue
 
             divider4.AutoSize = false;
             divider4.BorderStyle = BorderStyle.Fixed3D;
-            divider4.Location = new Point(5, 358);
+            divider4.Location = new Point(5, 308);
             divider4.Name = "divider4";
-            divider4.Size = new Size(590, 2);
+            divider4.Size = new Size(390, 2);
 
             #endregion
 
@@ -116,7 +116,7 @@ namespace Queue
 
             upDown1.DecimalPlaces = 1;
             upDown1.Increment = (Decimal)0.1;
-            upDown1.Location = new Point(400, 5);
+            upDown1.Location = new Point(200, 5);
             upDown1.Maximum = (Decimal)1.0;
             upDown1.Minimum = (Decimal)0.0;
             upDown1.Name = "upDown1";
@@ -132,7 +132,7 @@ namespace Queue
 
             upDown2.DecimalPlaces = 1;
             upDown2.Increment = (Decimal)0.1;
-            upDown2.Location = new Point(400, 40);
+            upDown2.Location = new Point(200, 40);
             upDown2.Maximum = (Decimal)1.0;
             upDown2.Minimum = (Decimal)0.0;
             upDown2.Name = "upDown2";
@@ -146,7 +146,7 @@ namespace Queue
 
             #region upDown3
 
-            upDown3.Location = new Point(400, 324);
+            upDown3.Location = new Point(200, 274);
             upDown3.Maximum = 10000000;
             upDown3.Minimum = 1;
             upDown3.Name = "upDown3";
@@ -160,7 +160,7 @@ namespace Queue
 
             #region textBox1
 
-            textBox1.Location = new Point(400, 82);
+            textBox1.Location = new Point(200, 82);
             textBox1.Name = "textBox1";
             textBox1.ReadOnly = true;
             textBox1.Size = new Size(195, 30);
@@ -171,7 +171,7 @@ namespace Queue
 
             #region textBox2
 
-            textBox2.Location = new Point(400, 117);
+            textBox2.Location = new Point(200, 117);
             textBox2.Name = "textBox2";
             textBox2.ReadOnly = true;
             textBox2.Size = new Size(195, 30);
@@ -182,7 +182,7 @@ namespace Queue
 
             #region textBox3
 
-            textBox3.Location = new Point(400, 159);
+            textBox3.Location = new Point(200, 159);
             textBox3.Name = "textBox3";
             textBox3.ReadOnly = true;
             textBox3.Size = new Size(195, 30);
@@ -193,7 +193,7 @@ namespace Queue
 
             #region textBox4
 
-            textBox4.Location = new Point(400, 194);
+            textBox4.Location = new Point(200, 194);
             textBox4.Name = "textBox4";
             textBox4.ReadOnly = true;
             textBox4.Size = new Size(195, 30);
@@ -204,7 +204,7 @@ namespace Queue
 
             #region textBox5
 
-            textBox5.Location = new Point(400, 229);
+            textBox5.Location = new Point(200, 229);
             textBox5.Name = "textBox5";
             textBox5.ReadOnly = true;
             textBox5.Size = new Size(195, 30);
@@ -217,7 +217,7 @@ namespace Queue
 
             label1.Location = new Point(5, 5);
             label1.Name = "label1";
-            label1.Size = new Size(390, 30);
+            label1.Size = new Size(190, 30);
             label1.Text = "First Channel";
             label1.TextAlign = ContentAlignment.MiddleLeft;
 
@@ -227,7 +227,7 @@ namespace Queue
 
             label2.Location = new Point(5, 40);
             label2.Name = "label2";
-            label2.Size = new Size(390, 30);
+            label2.Size = new Size(190, 30);
             label2.Text = "Second Channel";
             label2.TextAlign = ContentAlignment.MiddleLeft;
 
@@ -237,7 +237,7 @@ namespace Queue
 
             label3.Location = new Point(5, 82);
             label3.Name = "label3";
-            label3.Size = new Size(390, 30);
+            label3.Size = new Size(190, 30);
             label3.Text = "Failure Probability";
             label3.TextAlign = ContentAlignment.MiddleLeft;
 
@@ -247,7 +247,7 @@ namespace Queue
 
             label4.Location = new Point(5, 117);
             label4.Name = "label4";
-            label4.Size = new Size(390, 30);
+            label4.Size = new Size(190, 30);
             label4.Text = "Average Queue Length";
             label4.TextAlign = ContentAlignment.MiddleLeft;
 
@@ -257,7 +257,7 @@ namespace Queue
 
             label5.Location = new Point(5, 159);
             label5.Name = "label5";
-            label5.Size = new Size(390, 30);
+            label5.Size = new Size(190, 30);
             label5.Text = "Request Count";
             label5.TextAlign = ContentAlignment.MiddleLeft;
 
@@ -267,8 +267,8 @@ namespace Queue
 
             label6.Location = new Point(5, 194);
             label6.Name = "label6";
-            label6.Size = new Size(390, 30);
-            label6.Text = "Queue Count";
+            label6.Size = new Size(190, 30);
+            label6.Text = "Failure Count";
             label6.TextAlign = ContentAlignment.MiddleLeft;
 
             #endregion
@@ -277,17 +277,17 @@ namespace Queue
 
             label7.Location = new Point(5, 229);
             label7.Name = "label7";
-            label7.Size = new Size(390, 30);
-            label7.Text = "Failure Count";
+            label7.Size = new Size(190, 30);
+            label7.Text = "Queue Count";
             label7.TextAlign = ContentAlignment.MiddleLeft;
 
             #endregion
 
             #region label8
 
-            label8.Location = new Point(5, 324);
+            label8.Location = new Point(5, 274);
             label8.Name = "label8";
-            label8.Size = new Size(390, 30);
+            label8.Size = new Size(190, 30);
             label8.Text = "Iterations";
             label8.TextAlign = ContentAlignment.MiddleLeft;
 
@@ -296,7 +296,7 @@ namespace Queue
             #region this
 
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(600, 400);
+            ClientSize = new Size(400, 350);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             MinimizeBox = false;
