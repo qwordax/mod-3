@@ -27,8 +27,8 @@ namespace Queue
                 queue.NextState();
             }
 
-            textBox1.Text = String.Format("{0:0.000}", (Double)queue.FailureCount / queue.RequestCount);
-            textBox2.Text = String.Format("{0:0.000}", (Double)queue.QueueCount / queue.RequestCount);
+            textBox1.Text = String.Format("{0:0.000000}", (Double)queue.FailureCount / queue.RequestCount);
+            textBox2.Text = String.Format("{0:0.000000}", (Double)queue.QueueCount / queue.RequestCount);
 
             textBox3.Text = String.Format("{0}", queue.RequestCount);
             textBox4.Text = String.Format("{0}", queue.FailureCount);
