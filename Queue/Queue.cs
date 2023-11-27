@@ -40,7 +40,7 @@ namespace Queue
         {
             if (d == 1)
             {
-                if (random.NextDouble() > First)
+                if (random.NextDouble() > Second)
                 {
                     d = 0;
                 }
@@ -57,7 +57,7 @@ namespace Queue
 
             if (b == 1)
             {
-                if (random.NextDouble() > Second)
+                if (random.NextDouble() > First)
                 {
                     if (c == 0)
                     {
